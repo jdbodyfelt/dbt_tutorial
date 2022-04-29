@@ -3103,3 +3103,15 @@ with relation as (
 00:36:52.213004 [info ] [MainThread]: 
 00:36:52.213324 [info ] [MainThread]: 
 00:36:52.213622 [info ] [MainThread]: Press Ctrl+C to exit.
+
+
+============================== 2022-04-29 00:50:02.842225 | 166f0b3c-7b4f-4b10-a581-94a62487510a ==============================
+00:50:02.842244 [info ] [MainThread]: Running with dbt=1.1.0
+00:50:02.842758 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/jdbodyfelt/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'port': 8080, 'open_browser': True, 'which': 'serve', 'indirect_selection': 'eager'}
+00:50:02.842952 [debug] [MainThread]: Tracking: tracking
+00:50:02.855471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f277edc4640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f277edc4700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f277edc4730>]}
+00:50:02.858189 [info ] [MainThread]: Serving docs at 0.0.0.0:8080
+00:50:02.858505 [info ] [MainThread]: To access from your browser, navigate to:  http://localhost:8080
+00:50:02.858794 [info ] [MainThread]: 
+00:50:02.859071 [info ] [MainThread]: 
+00:50:02.859346 [info ] [MainThread]: Press Ctrl+C to exit.
